@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/DavidEdsonDoNascimento/Curso-Typescript#readme",
   "devDependencies": {
+    "@types/jquery": "^2.0.42",
     "typescript": "^2.3.2"
   }
 }
