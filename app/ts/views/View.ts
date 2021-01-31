@@ -1,4 +1,4 @@
-abstract class View<Generic>
+export abstract class View<Generic>
 {
     private _element: JQuery;
 
