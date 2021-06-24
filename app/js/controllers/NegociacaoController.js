@@ -1,7 +1,7 @@
 System.register(["./../views/MensagemView", "./../views/NegociacoesView", "./../models/Negociacoes", "./../models/Negociacao"], function (exports_1, context_1) {
     "use strict";
-    var __moduleName = context_1 && context_1.id;
     var MensagemView_1, NegociacoesView_1, Negociacoes_1, Negociacao_1, NegociacaoController;
+    var __moduleName = context_1 && context_1.id;
     return {
         setters: [
             function (MensagemView_1_1) {
