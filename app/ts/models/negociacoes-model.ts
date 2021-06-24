@@ -1,4 +1,4 @@
-import { Negociacao } from './Negociacao';
+import { Negociacao } from './negociacao-model';
 
 export class Negociacoes
 {

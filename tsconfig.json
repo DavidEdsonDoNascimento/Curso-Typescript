@@ -1,11 +1,14 @@
 {
     "compilerOptions": {
         "target": "ES6",
-        "outDir": "app/js",
+        "outDir": "app/dist/js",
         "noEmitOnError": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "module": "System"
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
     },
     "include": [
         "app/ts/**/*"

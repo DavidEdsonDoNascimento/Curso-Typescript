@@ -1,5 +1,9 @@
-import { NegociacaoController } from './../controllers/NegociacaoController';
+import { NegociacaoController } from './../controllers/negociacao-controller';
 
-var negociacaoController = new NegociacaoController();
+const negociacaoController = new NegociacaoController();
 
-$('.form').submit(negociacaoController.adicionar.bind(negociacaoController));
+$('.form').on('submit', event => {
+    event.preventDefault();
+    negociacaoController.adicionar();
+    console.log('teste');
+});
